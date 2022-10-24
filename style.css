@@ -1,11 +1,73 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
 body {
   margin: auto;
+  background-color: black;
 }
-#logo {
-  height: 3.85rem;
-  width: 8.9rem;
+.top-header {
+  margin-top: 1.799rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.netflixlogo {
+  margin-right: auto;
+}
+svg {
+  height: 2rem;
+  width: 6.75rem;
+  fill: #e50914;
+}
+#globe {
+  fill: white;
+  position: absolute;
+  height: 1.3rem;
+  right: 243.4px;
+  margin-top: 7px;
 }
 .whole-page-container {
-  padding: 1.76em;
-  padding-top: 0.6em;
+  padding: 2.76em;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#Lang-change {
+  padding: 8px 52px 8px 23px;
+  font-size: 0.875em;
+  border: 0.6px solid #aaa;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  text-align: start;
+  justify-content: center;
+  align-self: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 1.71427em;
+  color: rgb(244, 243, 243);
+  font-weight: lighter;
+}
+
+.Sign-in-button {
+  font-weight: 400;
+  font-size: 1em;
+  padding: 8px 18px;
+  border: 1px solid;
+  box-sizing: border-box;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  text-align: start;
+  justify-content: center;
+  align-self: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: #e50914;
+  border: none;
+  color: rgb(237, 236, 236);
+  line-height: normal;
 }
