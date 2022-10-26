@@ -3,7 +3,43 @@
 }
 body {
   margin: auto;
-  background-color: black;
+  background-color: rgb(60, 60, 60);
+}
+.splash,
+.background,
+.concord-img,
+.gradient {
+  width: 100%;
+  position: absolute;
+}
+.splash {
+  z-index: -2;
+  left: 0%;
+  top: 0%;
+}
+.background {
+  z-index: inherit;
+  opacity: 0.6;
+}
+.concord-img::after {
+  position: absolute;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0,
+    transparent 60%,
+    rgba(0, 0, 0, 0.8)
+  );
+}
+.gradient {
+  position: absolute;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0,
+    transparent 60%,
+    rgba(0, 0, 0, 0.8)
+  );
+  z-index: 1000;
+  inset: 0px;
 }
 .top-header {
   margin-top: 1.799rem;
@@ -62,7 +98,6 @@ svg {
   justify-content: center;
   display: inline-block;
   text-align: start;
-  justify-content: center;
   align-self: flex-end;
   font-family: Arial, Helvetica, sans-serif;
 
